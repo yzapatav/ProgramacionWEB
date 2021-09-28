@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Ledger&family=Rakkas&family=Red+Rose:wght@300&display=swap');
+*{
+    margin: 0;
+}
+
+body{
+    width: 1200px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;    
+}
+.principal{
+    border: olid 1px black;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+}
+.encabezado{
+    background-image: url(fondoHDV.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 2000px;
+    width: 5000px;
+}
+.nombrehv{
+    position: absolute;
+    width: 1150px;
+    height: 89px;
+    left: 83px;
+    top: 13px;
+    
+    font-family: Ledger;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 89px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+    mix-blend-mode: darken;
+}
+.titulo{
+    position: absolute;
+width: 603px;
+height: 79px;
+left: 298px;
+top: 95px;
+
+font-family: Rakkas;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 72px;
+
+color: #E5E5E5;
+}
+.foto{
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 0%;
+    position: absolute;
+width: 318px;
+height: 310px;
+left: 813px;
+top: 338px;
+
+background: url(FOTO.jpg);
+    
+}
+.perfil{
+position: absolute;
+width: 709px;
+height: 314px;
+left: 32px;
+top: 467px;
+
+font-family: Red Rose;
+font-style: normal;
+/*font-weight: bold;*/
+font-size: 25px;
+line-height: 44px;
+
+color: #000000;
+}
+.datosP{
+    position: absolute;
+width: 420px;
+height: 464px;
+left: 804px;
+top: 642px;
+
+font-family: Red Rose;
+font-style: normal;
+/*font-weight: bold;*/
+font-size: 25px;
+line-height: 45px;
+
+color: #000000;
+}
+.FormacionA{
+    position: absolute;
+width: 709px;
+height: 260px;
+left: 32px;
+top: 802px;
+
+font-family: Red Rose;
+font-style: normal;
+/*font-weight: bold;*/
+font-size: 25px;
+line-height: 44px;
+
+color: #000000;
+}
+.ExperienciaL{
+    position: absolute;
+width: 1142px;
+height: 501px;
+left: 32px;
+top: 1079px;
+
+font-family: Red Rose;
+font-style: normal;
+/*font-weight: bold;*/
+font-size: 25px;
+line-height: 44px;
+
+color: #000000;
+}
